@@ -1,0 +1,81 @@
+#include "fsx2.h"
+#include "delay.h"
+#include "usart.h"	 
+#include "rs485.h"
+
+//读取矿山粉尘仪数据
+// 0x55, 0x01, 0x00, 0x00, 0xf2
+
+//SY-FSX2 风速风向一体
+//读取风速 只读 地址0x002a 42
+// 0x02 0x03 0x00 0x2a 0x00 0x01 0xa5 0xf1
+// 0x02 0x03 0x02 0x00 0x00 0xfc 0x44
+//读取风向 只读 地址0x002b 43
+// 0x02 0x03 0x00 0x2b 0x00 0x01 0xf4 0x31
+// 0x02 0x03 0x02 0x03 0xb4 0xfc 0xd7
+
+//读取风速风向
+//0x02 0x03 0x00 0x2A 0x00 0x02 0xE5 0xF0
+
+//设备地址 可读可写 地址0x2000 8190
+//0x02 0x03 0x20 0x00 0x00 0x01 0x8F 0xF9
+//0x02 0x03 0x02 0x00 0x02 0x7D 0x85
+
+//u8 FSX_TX_BUF[8]={0x02,0x03,0x00,0x2a,0x00,0x01,0xa5,0xf1}; 
+
+u8 FSX_TX_BUF[8]={0x02,0x03,0x00,0x2A,0x00,0x02,0xE5,0xF0}; 
+	
+u8 CLD_TX_BUF[5]={0x55,0x01,0x00,0x00,0xF2}; 
+
+u8 FSX_RX_BUF[20]={0}; 
+
+u8 CLD_RX_BUF[20]={0}; 
+
+u16 windSpeed=0;
+u16 windDir=0;
+
+u16 LaserTsp=0;
+
+void ReadWindSpeedDir(void)
+{
+	unsigned char i=0;
+	unsigned char revLen=0;
+	unsigned char  rs485buf[10];
+	for(i=0;i<8;i++)
+	{
+		rs485buf[i]=FSX_TX_BUF[i];//填充发送缓冲区
+	}
+	RS485_Send_Data(rs485buf,8);//发送8个字节 
+	delay_ms(200);//要延迟否则接受数据中断
+	revLen = 9;
+	RS485_Receive_Data(FSX_RX_BUF,&revLen);//读取九个数据
+	if(revLen == 9)
+	{
+		windSpeed = (FSX_RX_BUF[3]<<8)|FSX_RX_BUF[4];
+		windDir = (FSX_RX_BUF[5]<<8)|FSX_RX_BUF[6];
+	}
+	
+}
+
+void ReadLaserTsp(void)
+{
+	unsigned char i=0;
+	unsigned char revLen=0;
+	unsigned char  rs485buf[10];
+	for(i=0;i<5;i++)
+	{
+		rs485buf[i]=CLD_TX_BUF[i];//填充发送缓冲区
+	}
+	RS485_Send_Data(rs485buf,5);//发送5个字节 
+	delay_ms(200);//要延迟否则接受数据中断
+	revLen = 5;
+	RS485_Receive_Data(CLD_RX_BUF,&revLen);//读取九个数据
+	if(revLen == 5)
+	{
+		LaserTsp = (CLD_RX_BUF[2]<<8)|CLD_RX_BUF[3];
+	}
+}
+
+
+
+

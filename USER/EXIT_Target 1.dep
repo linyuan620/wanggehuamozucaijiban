@@ -1,0 +1,588 @@
+Dependencies for Project 'EXIT', Target 'Target 1': (DO NOT MODIFY !)
+F (.\main.c)(0x5A2B65FD)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\EXTI -I..\HARDWARE\BEEP -I..\HARDWARE\TIMER -I..\HARDWARE\SPI -I..\HARDWARE\AM2305 -I..\HARDWARE\MAX31865 -I..\HARDWARE\SY-FSX2 -I..\HARDWARE\RESPONSE -I..\HARDWARE\DAC -I..\HARDWARE\ADC -I..\HARDWARE\PLUSE_ENCODE -I..\HARDWARE\RS485 -I..\HARDWARE\AWA5632 -I..\HARDWARE\DS18B20 -I..\HARDWARE\OPC -I..\MODBUS_SLAVE-I C:\Keil\MDK\ARM\RV31\INC-I C:\Keil\MDK\ARM\CMSIS\Include-I C:\Keil\MDK\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\main.o --omf_browse ..\obj\main.crf --depend ..\obj\main.d)
+I (..\SYSTEM\delay\delay.h)(0x56EFB621)
+I (..\SYSTEM\sys\sys.h)(0x583A4A37)
+I (..\USER\stm32f10x.h)(0x56EFB622)
+I (..\CORE\core_cm3.h)(0x56EFB621)
+I (C:\Keil\MDK\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (..\USER\system_stm32f10x.h)(0x56EFB622)
+I (..\USER\stm32f10x_conf.h)(0x58392DBF)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x56EFB621)
+I (..\SYSTEM\usart\usart.h)(0x5875E56E)
+I (C:\Keil\MDK\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (..\HARDWARE\TIMER\timer.h)(0x5A2B44F6)
+I (..\HARDWARE\LED\led.h)(0x58749CEA)
+I (C:\Keil\MDK\ARM\ARMCC\include\math.h)(0x51C7C554)
+I (..\HARDWARE\ADC\adc.h)(0x58426F3E)
+I (..\HARDWARE\RESPONSE\response.h)(0x5A2B38CA)
+I (..\MODBUS_SLAVE\modbus_slave.h)(0x5A24AD6F)
+I (..\MODBUS_SLAVE\mbcrc.h)(0x5A24A1D5)
+F (.\stm32f10x_it.c)(0x56EFB622)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\EXTI -I..\HARDWARE\BEEP -I..\HARDWARE\TIMER -I..\HARDWARE\SPI -I..\HARDWARE\AM2305 -I..\HARDWARE\MAX31865 -I..\HARDWARE\SY-FSX2 -I..\HARDWARE\RESPONSE -I..\HARDWARE\DAC -I..\HARDWARE\ADC -I..\HARDWARE\PLUSE_ENCODE -I..\HARDWARE\RS485 -I..\HARDWARE\AWA5632 -I..\HARDWARE\DS18B20 -I..\HARDWARE\OPC -I..\MODBUS_SLAVE-I C:\Keil\MDK\ARM\RV31\INC-I C:\Keil\MDK\ARM\CMSIS\Include-I C:\Keil\MDK\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_it.o --omf_browse ..\obj\stm32f10x_it.crf --depend ..\obj\stm32f10x_it.d)
+I (stm32f10x_it.h)(0x56EFB622)
+I (stm32f10x.h)(0x56EFB622)
+I (..\CORE\core_cm3.h)(0x56EFB621)
+I (C:\Keil\MDK\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (system_stm32f10x.h)(0x56EFB622)
+I (stm32f10x_conf.h)(0x58392DBF)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x56EFB621)
+I (..\USER\stm32f10x.h)(0x56EFB622)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x56EFB621)
+F (.\system_stm32f10x.c)(0x56EFB622)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\EXTI -I..\HARDWARE\BEEP -I..\HARDWARE\TIMER -I..\HARDWARE\SPI -I..\HARDWARE\AM2305 -I..\HARDWARE\MAX31865 -I..\HARDWARE\SY-FSX2 -I..\HARDWARE\RESPONSE -I..\HARDWARE\DAC -I..\HARDWARE\ADC -I..\HARDWARE\PLUSE_ENCODE -I..\HARDWARE\RS485 -I..\HARDWARE\AWA5632 -I..\HARDWARE\DS18B20 -I..\HARDWARE\OPC -I..\MODBUS_SLAVE-I C:\Keil\MDK\ARM\RV31\INC-I C:\Keil\MDK\ARM\CMSIS\Include-I C:\Keil\MDK\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\system_stm32f10x.o --omf_browse ..\obj\system_stm32f10x.crf --depend ..\obj\system_stm32f10x.d)
+I (stm32f10x.h)(0x56EFB622)
+I (..\CORE\core_cm3.h)(0x56EFB621)
+I (C:\Keil\MDK\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (system_stm32f10x.h)(0x56EFB622)
+I (stm32f10x_conf.h)(0x58392DBF)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x56EFB621)
+I (..\USER\stm32f10x.h)(0x56EFB622)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x56EFB621)
+F (..\HARDWARE\LED\led.c)(0x58749CE2)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\EXTI -I..\HARDWARE\BEEP -I..\HARDWARE\TIMER -I..\HARDWARE\SPI -I..\HARDWARE\AM2305 -I..\HARDWARE\MAX31865 -I..\HARDWARE\SY-FSX2 -I..\HARDWARE\RESPONSE -I..\HARDWARE\DAC -I..\HARDWARE\ADC -I..\HARDWARE\PLUSE_ENCODE -I..\HARDWARE\RS485 -I..\HARDWARE\AWA5632 -I..\HARDWARE\DS18B20 -I..\HARDWARE\OPC -I..\MODBUS_SLAVE-I C:\Keil\MDK\ARM\RV31\INC-I C:\Keil\MDK\ARM\CMSIS\Include-I C:\Keil\MDK\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\led.o --omf_browse ..\obj\led.crf --depend ..\obj\led.d)
+I (..\HARDWARE\LED\led.h)(0x58749CEA)
+I (..\SYSTEM\sys\sys.h)(0x583A4A37)
+I (..\USER\stm32f10x.h)(0x56EFB622)
+I (..\CORE\core_cm3.h)(0x56EFB621)
+I (C:\Keil\MDK\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (..\USER\system_stm32f10x.h)(0x56EFB622)
+I (..\USER\stm32f10x_conf.h)(0x58392DBF)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x56EFB621)
+F (..\HARDWARE\EXTI\exti.c)(0x586DDAD5)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\EXTI -I..\HARDWARE\BEEP -I..\HARDWARE\TIMER -I..\HARDWARE\SPI -I..\HARDWARE\AM2305 -I..\HARDWARE\MAX31865 -I..\HARDWARE\SY-FSX2 -I..\HARDWARE\RESPONSE -I..\HARDWARE\DAC -I..\HARDWARE\ADC -I..\HARDWARE\PLUSE_ENCODE -I..\HARDWARE\RS485 -I..\HARDWARE\AWA5632 -I..\HARDWARE\DS18B20 -I..\HARDWARE\OPC -I..\MODBUS_SLAVE-I C:\Keil\MDK\ARM\RV31\INC-I C:\Keil\MDK\ARM\CMSIS\Include-I C:\Keil\MDK\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\exti.o --omf_browse ..\obj\exti.crf --depend ..\obj\exti.d)
+I (..\HARDWARE\EXTI\exti.h)(0x5822CABB)
+I (..\SYSTEM\sys\sys.h)(0x583A4A37)
+I (..\USER\stm32f10x.h)(0x56EFB622)
+I (..\CORE\core_cm3.h)(0x56EFB621)
+I (C:\Keil\MDK\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (..\USER\system_stm32f10x.h)(0x56EFB622)
+I (..\USER\stm32f10x_conf.h)(0x58392DBF)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x56EFB621)
+I (..\HARDWARE\LED\led.h)(0x58749CEA)
+I (..\SYSTEM\delay\delay.h)(0x56EFB621)
+I (..\SYSTEM\usart\usart.h)(0x5875E56E)
+I (C:\Keil\MDK\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (..\HARDWARE\TIMER\timer.h)(0x5A2B44F6)
+F (..\HARDWARE\TIMER\timer.c)(0x5A2B4BE1)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\EXTI -I..\HARDWARE\BEEP -I..\HARDWARE\TIMER -I..\HARDWARE\SPI -I..\HARDWARE\AM2305 -I..\HARDWARE\MAX31865 -I..\HARDWARE\SY-FSX2 -I..\HARDWARE\RESPONSE -I..\HARDWARE\DAC -I..\HARDWARE\ADC -I..\HARDWARE\PLUSE_ENCODE -I..\HARDWARE\RS485 -I..\HARDWARE\AWA5632 -I..\HARDWARE\DS18B20 -I..\HARDWARE\OPC -I..\MODBUS_SLAVE-I C:\Keil\MDK\ARM\RV31\INC-I C:\Keil\MDK\ARM\CMSIS\Include-I C:\Keil\MDK\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\timer.o --omf_browse ..\obj\timer.crf --depend ..\obj\timer.d)
+I (..\HARDWARE\TIMER\timer.h)(0x5A2B44F6)
+I (..\SYSTEM\sys\sys.h)(0x583A4A37)
+I (..\USER\stm32f10x.h)(0x56EFB622)
+I (..\CORE\core_cm3.h)(0x56EFB621)
+I (C:\Keil\MDK\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (..\USER\system_stm32f10x.h)(0x56EFB622)
+I (..\USER\stm32f10x_conf.h)(0x58392DBF)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x56EFB621)
+I (..\HARDWARE\LED\led.h)(0x58749CEA)
+I (..\HARDWARE\EXTI\exti.h)(0x5822CABB)
+I (..\SYSTEM\delay\delay.h)(0x56EFB621)
+I (..\SYSTEM\usart\usart.h)(0x5875E56E)
+I (C:\Keil\MDK\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (..\HARDWARE\RESPONSE\response.h)(0x5A2B38CA)
+I (C:\Keil\MDK\ARM\ARMCC\include\string.h)(0x51C7C554)
+I (..\MODBUS_SLAVE\modbus_slave.h)(0x5A24AD6F)
+F (..\HARDWARE\BEEP\beep.c)(0x582559E2)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\EXTI -I..\HARDWARE\BEEP -I..\HARDWARE\TIMER -I..\HARDWARE\SPI -I..\HARDWARE\AM2305 -I..\HARDWARE\MAX31865 -I..\HARDWARE\SY-FSX2 -I..\HARDWARE\RESPONSE -I..\HARDWARE\DAC -I..\HARDWARE\ADC -I..\HARDWARE\PLUSE_ENCODE -I..\HARDWARE\RS485 -I..\HARDWARE\AWA5632 -I..\HARDWARE\DS18B20 -I..\HARDWARE\OPC -I..\MODBUS_SLAVE-I C:\Keil\MDK\ARM\RV31\INC-I C:\Keil\MDK\ARM\CMSIS\Include-I C:\Keil\MDK\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\beep.o --omf_browse ..\obj\beep.crf --depend ..\obj\beep.d)
+I (..\HARDWARE\BEEP\beep.h)(0x582559F7)
+I (..\SYSTEM\sys\sys.h)(0x583A4A37)
+I (..\USER\stm32f10x.h)(0x56EFB622)
+I (..\CORE\core_cm3.h)(0x56EFB621)
+I (C:\Keil\MDK\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (..\USER\system_stm32f10x.h)(0x56EFB622)
+I (..\USER\stm32f10x_conf.h)(0x58392DBF)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x56EFB621)
+F (..\HARDWARE\SPI\spi.c)(0x599A4BDB)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\EXTI -I..\HARDWARE\BEEP -I..\HARDWARE\TIMER -I..\HARDWARE\SPI -I..\HARDWARE\AM2305 -I..\HARDWARE\MAX31865 -I..\HARDWARE\SY-FSX2 -I..\HARDWARE\RESPONSE -I..\HARDWARE\DAC -I..\HARDWARE\ADC -I..\HARDWARE\PLUSE_ENCODE -I..\HARDWARE\RS485 -I..\HARDWARE\AWA5632 -I..\HARDWARE\DS18B20 -I..\HARDWARE\OPC -I..\MODBUS_SLAVE-I C:\Keil\MDK\ARM\RV31\INC-I C:\Keil\MDK\ARM\CMSIS\Include-I C:\Keil\MDK\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\spi.o --omf_browse ..\obj\spi.crf --depend ..\obj\spi.d)
+I (..\HARDWARE\SPI\spi.h)(0x58255D33)
+I (..\SYSTEM\sys\sys.h)(0x583A4A37)
+I (..\USER\stm32f10x.h)(0x56EFB622)
+I (..\CORE\core_cm3.h)(0x56EFB621)
+I (C:\Keil\MDK\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (..\USER\system_stm32f10x.h)(0x56EFB622)
+I (..\USER\stm32f10x_conf.h)(0x58392DBF)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x56EFB621)
+F (..\HARDWARE\AM2305\am2305.c)(0x586CBCE4)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\EXTI -I..\HARDWARE\BEEP -I..\HARDWARE\TIMER -I..\HARDWARE\SPI -I..\HARDWARE\AM2305 -I..\HARDWARE\MAX31865 -I..\HARDWARE\SY-FSX2 -I..\HARDWARE\RESPONSE -I..\HARDWARE\DAC -I..\HARDWARE\ADC -I..\HARDWARE\PLUSE_ENCODE -I..\HARDWARE\RS485 -I..\HARDWARE\AWA5632 -I..\HARDWARE\DS18B20 -I..\HARDWARE\OPC -I..\MODBUS_SLAVE-I C:\Keil\MDK\ARM\RV31\INC-I C:\Keil\MDK\ARM\CMSIS\Include-I C:\Keil\MDK\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\am2305.o --omf_browse ..\obj\am2305.crf --depend ..\obj\am2305.d)
+I (..\HARDWARE\AM2305\am2305.h)(0x586D9A9B)
+I (..\SYSTEM\sys\sys.h)(0x583A4A37)
+I (..\USER\stm32f10x.h)(0x56EFB622)
+I (..\CORE\core_cm3.h)(0x56EFB621)
+I (C:\Keil\MDK\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (..\USER\system_stm32f10x.h)(0x56EFB622)
+I (..\USER\stm32f10x_conf.h)(0x58392DBF)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x56EFB621)
+I (..\SYSTEM\delay\delay.h)(0x56EFB621)
+F (..\HARDWARE\MAX31865\max31865.c)(0x584269C8)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\EXTI -I..\HARDWARE\BEEP -I..\HARDWARE\TIMER -I..\HARDWARE\SPI -I..\HARDWARE\AM2305 -I..\HARDWARE\MAX31865 -I..\HARDWARE\SY-FSX2 -I..\HARDWARE\RESPONSE -I..\HARDWARE\DAC -I..\HARDWARE\ADC -I..\HARDWARE\PLUSE_ENCODE -I..\HARDWARE\RS485 -I..\HARDWARE\AWA5632 -I..\HARDWARE\DS18B20 -I..\HARDWARE\OPC -I..\MODBUS_SLAVE-I C:\Keil\MDK\ARM\RV31\INC-I C:\Keil\MDK\ARM\CMSIS\Include-I C:\Keil\MDK\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\max31865.o --omf_browse ..\obj\max31865.crf --depend ..\obj\max31865.d)
+I (..\HARDWARE\MAX31865\max31865.h)(0x58425839)
+I (..\SYSTEM\sys\sys.h)(0x583A4A37)
+I (..\USER\stm32f10x.h)(0x56EFB622)
+I (..\CORE\core_cm3.h)(0x56EFB621)
+I (C:\Keil\MDK\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (..\USER\system_stm32f10x.h)(0x56EFB622)
+I (..\USER\stm32f10x_conf.h)(0x58392DBF)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x56EFB621)
+I (..\HARDWARE\SPI\spi.h)(0x58255D33)
+F (..\HARDWARE\SY-FSX2\fsx2.c)(0x5875D741)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\EXTI -I..\HARDWARE\BEEP -I..\HARDWARE\TIMER -I..\HARDWARE\SPI -I..\HARDWARE\AM2305 -I..\HARDWARE\MAX31865 -I..\HARDWARE\SY-FSX2 -I..\HARDWARE\RESPONSE -I..\HARDWARE\DAC -I..\HARDWARE\ADC -I..\HARDWARE\PLUSE_ENCODE -I..\HARDWARE\RS485 -I..\HARDWARE\AWA5632 -I..\HARDWARE\DS18B20 -I..\HARDWARE\OPC -I..\MODBUS_SLAVE-I C:\Keil\MDK\ARM\RV31\INC-I C:\Keil\MDK\ARM\CMSIS\Include-I C:\Keil\MDK\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\fsx2.o --omf_browse ..\obj\fsx2.crf --depend ..\obj\fsx2.d)
+I (..\HARDWARE\SY-FSX2\fsx2.h)(0x586DC148)
+I (..\SYSTEM\sys\sys.h)(0x583A4A37)
+I (..\USER\stm32f10x.h)(0x56EFB622)
+I (..\CORE\core_cm3.h)(0x56EFB621)
+I (C:\Keil\MDK\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (..\USER\system_stm32f10x.h)(0x56EFB622)
+I (..\USER\stm32f10x_conf.h)(0x58392DBF)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x56EFB621)
+I (..\SYSTEM\delay\delay.h)(0x56EFB621)
+I (..\SYSTEM\usart\usart.h)(0x5875E56E)
+I (C:\Keil\MDK\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (..\HARDWARE\RS485\rs485.h)(0x5A2B4007)
+F (..\HARDWARE\RESPONSE\response.c)(0x5A2B50A1)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\EXTI -I..\HARDWARE\BEEP -I..\HARDWARE\TIMER -I..\HARDWARE\SPI -I..\HARDWARE\AM2305 -I..\HARDWARE\MAX31865 -I..\HARDWARE\SY-FSX2 -I..\HARDWARE\RESPONSE -I..\HARDWARE\DAC -I..\HARDWARE\ADC -I..\HARDWARE\PLUSE_ENCODE -I..\HARDWARE\RS485 -I..\HARDWARE\AWA5632 -I..\HARDWARE\DS18B20 -I..\HARDWARE\OPC -I..\MODBUS_SLAVE-I C:\Keil\MDK\ARM\RV31\INC-I C:\Keil\MDK\ARM\CMSIS\Include-I C:\Keil\MDK\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\response.o --omf_browse ..\obj\response.crf --depend ..\obj\response.d)
+I (..\HARDWARE\RESPONSE\response.h)(0x5A2B38CA)
+I (..\SYSTEM\sys\sys.h)(0x583A4A37)
+I (..\USER\stm32f10x.h)(0x56EFB622)
+I (..\CORE\core_cm3.h)(0x56EFB621)
+I (C:\Keil\MDK\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (..\USER\system_stm32f10x.h)(0x56EFB622)
+I (..\USER\stm32f10x_conf.h)(0x58392DBF)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x56EFB621)
+I (..\SYSTEM\delay\delay.h)(0x56EFB621)
+I (..\SYSTEM\usart\usart.h)(0x5875E56E)
+I (C:\Keil\MDK\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (C:\Keil\MDK\ARM\ARMCC\include\string.h)(0x51C7C554)
+F (..\HARDWARE\ADC\adc.c)(0x58426F3E)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\EXTI -I..\HARDWARE\BEEP -I..\HARDWARE\TIMER -I..\HARDWARE\SPI -I..\HARDWARE\AM2305 -I..\HARDWARE\MAX31865 -I..\HARDWARE\SY-FSX2 -I..\HARDWARE\RESPONSE -I..\HARDWARE\DAC -I..\HARDWARE\ADC -I..\HARDWARE\PLUSE_ENCODE -I..\HARDWARE\RS485 -I..\HARDWARE\AWA5632 -I..\HARDWARE\DS18B20 -I..\HARDWARE\OPC -I..\MODBUS_SLAVE-I C:\Keil\MDK\ARM\RV31\INC-I C:\Keil\MDK\ARM\CMSIS\Include-I C:\Keil\MDK\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\adc.o --omf_browse ..\obj\adc.crf --depend ..\obj\adc.d)
+I (..\HARDWARE\ADC\adc.h)(0x58426F3E)
+I (..\SYSTEM\sys\sys.h)(0x583A4A37)
+I (..\USER\stm32f10x.h)(0x56EFB622)
+I (..\CORE\core_cm3.h)(0x56EFB621)
+I (C:\Keil\MDK\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (..\USER\system_stm32f10x.h)(0x56EFB622)
+I (..\USER\stm32f10x_conf.h)(0x58392DBF)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x56EFB621)
+I (..\SYSTEM\delay\delay.h)(0x56EFB621)
+F (..\HARDWARE\DAC\dac.c)(0x58392ED6)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\EXTI -I..\HARDWARE\BEEP -I..\HARDWARE\TIMER -I..\HARDWARE\SPI -I..\HARDWARE\AM2305 -I..\HARDWARE\MAX31865 -I..\HARDWARE\SY-FSX2 -I..\HARDWARE\RESPONSE -I..\HARDWARE\DAC -I..\HARDWARE\ADC -I..\HARDWARE\PLUSE_ENCODE -I..\HARDWARE\RS485 -I..\HARDWARE\AWA5632 -I..\HARDWARE\DS18B20 -I..\HARDWARE\OPC -I..\MODBUS_SLAVE-I C:\Keil\MDK\ARM\RV31\INC-I C:\Keil\MDK\ARM\CMSIS\Include-I C:\Keil\MDK\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\dac.o --omf_browse ..\obj\dac.crf --depend ..\obj\dac.d)
+I (..\HARDWARE\DAC\dac.h)(0x56EFB602)
+I (..\SYSTEM\sys\sys.h)(0x583A4A37)
+I (..\USER\stm32f10x.h)(0x56EFB622)
+I (..\CORE\core_cm3.h)(0x56EFB621)
+I (C:\Keil\MDK\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (..\USER\system_stm32f10x.h)(0x56EFB622)
+I (..\USER\stm32f10x_conf.h)(0x58392DBF)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x56EFB621)
+F (..\HARDWARE\RS485\rs485.c)(0x5A2B4167)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\EXTI -I..\HARDWARE\BEEP -I..\HARDWARE\TIMER -I..\HARDWARE\SPI -I..\HARDWARE\AM2305 -I..\HARDWARE\MAX31865 -I..\HARDWARE\SY-FSX2 -I..\HARDWARE\RESPONSE -I..\HARDWARE\DAC -I..\HARDWARE\ADC -I..\HARDWARE\PLUSE_ENCODE -I..\HARDWARE\RS485 -I..\HARDWARE\AWA5632 -I..\HARDWARE\DS18B20 -I..\HARDWARE\OPC -I..\MODBUS_SLAVE-I C:\Keil\MDK\ARM\RV31\INC-I C:\Keil\MDK\ARM\CMSIS\Include-I C:\Keil\MDK\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\rs485.o --omf_browse ..\obj\rs485.crf --depend ..\obj\rs485.d)
+I (..\SYSTEM\sys\sys.h)(0x583A4A37)
+I (..\USER\stm32f10x.h)(0x56EFB622)
+I (..\CORE\core_cm3.h)(0x56EFB621)
+I (C:\Keil\MDK\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (..\USER\system_stm32f10x.h)(0x56EFB622)
+I (..\USER\stm32f10x_conf.h)(0x58392DBF)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x56EFB621)
+I (..\HARDWARE\RS485\rs485.h)(0x5A2B4007)
+I (..\SYSTEM\delay\delay.h)(0x56EFB621)
+F (..\HARDWARE\DS18B20\ds18b20.c)(0x599139C3)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\EXTI -I..\HARDWARE\BEEP -I..\HARDWARE\TIMER -I..\HARDWARE\SPI -I..\HARDWARE\AM2305 -I..\HARDWARE\MAX31865 -I..\HARDWARE\SY-FSX2 -I..\HARDWARE\RESPONSE -I..\HARDWARE\DAC -I..\HARDWARE\ADC -I..\HARDWARE\PLUSE_ENCODE -I..\HARDWARE\RS485 -I..\HARDWARE\AWA5632 -I..\HARDWARE\DS18B20 -I..\HARDWARE\OPC -I..\MODBUS_SLAVE-I C:\Keil\MDK\ARM\RV31\INC-I C:\Keil\MDK\ARM\CMSIS\Include-I C:\Keil\MDK\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\ds18b20.o --omf_browse ..\obj\ds18b20.crf --depend ..\obj\ds18b20.d)
+I (..\HARDWARE\DS18B20\ds18b20.h)(0x59913C19)
+I (..\SYSTEM\sys\sys.h)(0x583A4A37)
+I (..\USER\stm32f10x.h)(0x56EFB622)
+I (..\CORE\core_cm3.h)(0x56EFB621)
+I (C:\Keil\MDK\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (..\USER\system_stm32f10x.h)(0x56EFB622)
+I (..\USER\stm32f10x_conf.h)(0x58392DBF)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x56EFB621)
+I (..\SYSTEM\delay\delay.h)(0x56EFB621)
+F (..\HARDWARE\FLASH\flash.c)(0x56EFB607)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\EXTI -I..\HARDWARE\BEEP -I..\HARDWARE\TIMER -I..\HARDWARE\SPI -I..\HARDWARE\AM2305 -I..\HARDWARE\MAX31865 -I..\HARDWARE\SY-FSX2 -I..\HARDWARE\RESPONSE -I..\HARDWARE\DAC -I..\HARDWARE\ADC -I..\HARDWARE\PLUSE_ENCODE -I..\HARDWARE\RS485 -I..\HARDWARE\AWA5632 -I..\HARDWARE\DS18B20 -I..\HARDWARE\OPC -I..\MODBUS_SLAVE-I C:\Keil\MDK\ARM\RV31\INC-I C:\Keil\MDK\ARM\CMSIS\Include-I C:\Keil\MDK\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\flash.o --omf_browse ..\obj\flash.crf --depend ..\obj\flash.d)
+I (..\HARDWARE\FLASH\flash.h)(0x56EFB607)
+I (..\SYSTEM\sys\sys.h)(0x583A4A37)
+I (..\USER\stm32f10x.h)(0x56EFB622)
+I (..\CORE\core_cm3.h)(0x56EFB621)
+I (C:\Keil\MDK\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (..\USER\system_stm32f10x.h)(0x56EFB622)
+I (..\USER\stm32f10x_conf.h)(0x58392DBF)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x56EFB621)
+I (..\HARDWARE\SPI\spi.h)(0x58255D33)
+I (..\SYSTEM\delay\delay.h)(0x56EFB621)
+F (..\HARDWARE\OPC\opc.c)(0x599A711E)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\EXTI -I..\HARDWARE\BEEP -I..\HARDWARE\TIMER -I..\HARDWARE\SPI -I..\HARDWARE\AM2305 -I..\HARDWARE\MAX31865 -I..\HARDWARE\SY-FSX2 -I..\HARDWARE\RESPONSE -I..\HARDWARE\DAC -I..\HARDWARE\ADC -I..\HARDWARE\PLUSE_ENCODE -I..\HARDWARE\RS485 -I..\HARDWARE\AWA5632 -I..\HARDWARE\DS18B20 -I..\HARDWARE\OPC -I..\MODBUS_SLAVE-I C:\Keil\MDK\ARM\RV31\INC-I C:\Keil\MDK\ARM\CMSIS\Include-I C:\Keil\MDK\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\opc.o --omf_browse ..\obj\opc.crf --depend ..\obj\opc.d)
+I (..\HARDWARE\OPC\opc.h)(0x599A7101)
+I (..\SYSTEM\sys\sys.h)(0x583A4A37)
+I (..\USER\stm32f10x.h)(0x56EFB622)
+I (..\CORE\core_cm3.h)(0x56EFB621)
+I (C:\Keil\MDK\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (..\USER\system_stm32f10x.h)(0x56EFB622)
+I (..\USER\stm32f10x_conf.h)(0x58392DBF)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x56EFB621)
+I (..\SYSTEM\delay\delay.h)(0x56EFB621)
+I (..\HARDWARE\SPI\spi.h)(0x58255D33)
+F (..\SYSTEM\delay\delay.c)(0x56EFB621)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\EXTI -I..\HARDWARE\BEEP -I..\HARDWARE\TIMER -I..\HARDWARE\SPI -I..\HARDWARE\AM2305 -I..\HARDWARE\MAX31865 -I..\HARDWARE\SY-FSX2 -I..\HARDWARE\RESPONSE -I..\HARDWARE\DAC -I..\HARDWARE\ADC -I..\HARDWARE\PLUSE_ENCODE -I..\HARDWARE\RS485 -I..\HARDWARE\AWA5632 -I..\HARDWARE\DS18B20 -I..\HARDWARE\OPC -I..\MODBUS_SLAVE-I C:\Keil\MDK\ARM\RV31\INC-I C:\Keil\MDK\ARM\CMSIS\Include-I C:\Keil\MDK\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\delay.o --omf_browse ..\obj\delay.crf --depend ..\obj\delay.d)
+I (..\SYSTEM\delay\delay.h)(0x56EFB621)
+I (..\SYSTEM\sys\sys.h)(0x583A4A37)
+I (..\USER\stm32f10x.h)(0x56EFB622)
+I (..\CORE\core_cm3.h)(0x56EFB621)
+I (C:\Keil\MDK\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (..\USER\system_stm32f10x.h)(0x56EFB622)
+I (..\USER\stm32f10x_conf.h)(0x58392DBF)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x56EFB621)
+F (..\SYSTEM\sys\sys.c)(0x56EFB621)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\EXTI -I..\HARDWARE\BEEP -I..\HARDWARE\TIMER -I..\HARDWARE\SPI -I..\HARDWARE\AM2305 -I..\HARDWARE\MAX31865 -I..\HARDWARE\SY-FSX2 -I..\HARDWARE\RESPONSE -I..\HARDWARE\DAC -I..\HARDWARE\ADC -I..\HARDWARE\PLUSE_ENCODE -I..\HARDWARE\RS485 -I..\HARDWARE\AWA5632 -I..\HARDWARE\DS18B20 -I..\HARDWARE\OPC -I..\MODBUS_SLAVE-I C:\Keil\MDK\ARM\RV31\INC-I C:\Keil\MDK\ARM\CMSIS\Include-I C:\Keil\MDK\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\sys.o --omf_browse ..\obj\sys.crf --depend ..\obj\sys.d)
+I (..\SYSTEM\sys\sys.h)(0x583A4A37)
+I (..\USER\stm32f10x.h)(0x56EFB622)
+I (..\CORE\core_cm3.h)(0x56EFB621)
+I (C:\Keil\MDK\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (..\USER\system_stm32f10x.h)(0x56EFB622)
+I (..\USER\stm32f10x_conf.h)(0x58392DBF)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x56EFB621)
+F (..\SYSTEM\usart\usart.c)(0x599657C6)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\EXTI -I..\HARDWARE\BEEP -I..\HARDWARE\TIMER -I..\HARDWARE\SPI -I..\HARDWARE\AM2305 -I..\HARDWARE\MAX31865 -I..\HARDWARE\SY-FSX2 -I..\HARDWARE\RESPONSE -I..\HARDWARE\DAC -I..\HARDWARE\ADC -I..\HARDWARE\PLUSE_ENCODE -I..\HARDWARE\RS485 -I..\HARDWARE\AWA5632 -I..\HARDWARE\DS18B20 -I..\HARDWARE\OPC -I..\MODBUS_SLAVE-I C:\Keil\MDK\ARM\RV31\INC-I C:\Keil\MDK\ARM\CMSIS\Include-I C:\Keil\MDK\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\usart.o --omf_browse ..\obj\usart.crf --depend ..\obj\usart.d)
+I (..\SYSTEM\sys\sys.h)(0x583A4A37)
+I (..\USER\stm32f10x.h)(0x56EFB622)
+I (..\CORE\core_cm3.h)(0x56EFB621)
+I (C:\Keil\MDK\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (..\USER\system_stm32f10x.h)(0x56EFB622)
+I (..\USER\stm32f10x_conf.h)(0x58392DBF)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x56EFB621)
+I (..\SYSTEM\usart\usart.h)(0x5875E56E)
+I (C:\Keil\MDK\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (..\HARDWARE\RESPONSE\response.h)(0x5A2B38CA)
+F (..\CORE\core_cm3.c)(0x56EFB621)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\EXTI -I..\HARDWARE\BEEP -I..\HARDWARE\TIMER -I..\HARDWARE\SPI -I..\HARDWARE\AM2305 -I..\HARDWARE\MAX31865 -I..\HARDWARE\SY-FSX2 -I..\HARDWARE\RESPONSE -I..\HARDWARE\DAC -I..\HARDWARE\ADC -I..\HARDWARE\PLUSE_ENCODE -I..\HARDWARE\RS485 -I..\HARDWARE\AWA5632 -I..\HARDWARE\DS18B20 -I..\HARDWARE\OPC -I..\MODBUS_SLAVE-I C:\Keil\MDK\ARM\RV31\INC-I C:\Keil\MDK\ARM\CMSIS\Include-I C:\Keil\MDK\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\core_cm3.o --omf_browse ..\obj\core_cm3.crf --depend ..\obj\core_cm3.d)
+I (C:\Keil\MDK\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+F (..\CORE\startup_stm32f10x_md.s)(0x56EFB621)(--cpu Cortex-M3 -g --apcs=interwork -I C:\Keil\MDK\ARM\RV31\INC-I C:\Keil\MDK\ARM\CMSIS\Include-I C:\Keil\MDK\ARM\Inc\ST\STM32F10x--list .\startup_stm32f10x_md.lst --xref -o ..\obj\startup_stm32f10x_md.o --depend ..\obj\startup_stm32f10x_md.d)
+F (..\STM32F10x_FWLib\src\misc.c)(0x56EFB621)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\EXTI -I..\HARDWARE\BEEP -I..\HARDWARE\TIMER -I..\HARDWARE\SPI -I..\HARDWARE\AM2305 -I..\HARDWARE\MAX31865 -I..\HARDWARE\SY-FSX2 -I..\HARDWARE\RESPONSE -I..\HARDWARE\DAC -I..\HARDWARE\ADC -I..\HARDWARE\PLUSE_ENCODE -I..\HARDWARE\RS485 -I..\HARDWARE\AWA5632 -I..\HARDWARE\DS18B20 -I..\HARDWARE\OPC -I..\MODBUS_SLAVE-I C:\Keil\MDK\ARM\RV31\INC-I C:\Keil\MDK\ARM\CMSIS\Include-I C:\Keil\MDK\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\misc.o --omf_browse ..\obj\misc.crf --depend ..\obj\misc.d)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x56EFB621)
+I (..\USER\stm32f10x.h)(0x56EFB622)
+I (..\CORE\core_cm3.h)(0x56EFB621)
+I (C:\Keil\MDK\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (..\USER\system_stm32f10x.h)(0x56EFB622)
+I (..\USER\stm32f10x_conf.h)(0x58392DBF)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x56EFB621)
+F (..\STM32F10x_FWLib\src\stm32f10x_gpio.c)(0x56EFB621)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\EXTI -I..\HARDWARE\BEEP -I..\HARDWARE\TIMER -I..\HARDWARE\SPI -I..\HARDWARE\AM2305 -I..\HARDWARE\MAX31865 -I..\HARDWARE\SY-FSX2 -I..\HARDWARE\RESPONSE -I..\HARDWARE\DAC -I..\HARDWARE\ADC -I..\HARDWARE\PLUSE_ENCODE -I..\HARDWARE\RS485 -I..\HARDWARE\AWA5632 -I..\HARDWARE\DS18B20 -I..\HARDWARE\OPC -I..\MODBUS_SLAVE-I C:\Keil\MDK\ARM\RV31\INC-I C:\Keil\MDK\ARM\CMSIS\Include-I C:\Keil\MDK\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_gpio.o --omf_browse ..\obj\stm32f10x_gpio.crf --depend ..\obj\stm32f10x_gpio.d)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x56EFB621)
+I (..\USER\stm32f10x.h)(0x56EFB622)
+I (..\CORE\core_cm3.h)(0x56EFB621)
+I (C:\Keil\MDK\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (..\USER\system_stm32f10x.h)(0x56EFB622)
+I (..\USER\stm32f10x_conf.h)(0x58392DBF)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x56EFB621)
+F (..\STM32F10x_FWLib\src\stm32f10x_rcc.c)(0x56EFB621)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\EXTI -I..\HARDWARE\BEEP -I..\HARDWARE\TIMER -I..\HARDWARE\SPI -I..\HARDWARE\AM2305 -I..\HARDWARE\MAX31865 -I..\HARDWARE\SY-FSX2 -I..\HARDWARE\RESPONSE -I..\HARDWARE\DAC -I..\HARDWARE\ADC -I..\HARDWARE\PLUSE_ENCODE -I..\HARDWARE\RS485 -I..\HARDWARE\AWA5632 -I..\HARDWARE\DS18B20 -I..\HARDWARE\OPC -I..\MODBUS_SLAVE-I C:\Keil\MDK\ARM\RV31\INC-I C:\Keil\MDK\ARM\CMSIS\Include-I C:\Keil\MDK\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_rcc.o --omf_browse ..\obj\stm32f10x_rcc.crf --depend ..\obj\stm32f10x_rcc.d)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x56EFB621)
+I (..\USER\stm32f10x.h)(0x56EFB622)
+I (..\CORE\core_cm3.h)(0x56EFB621)
+I (C:\Keil\MDK\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (..\USER\system_stm32f10x.h)(0x56EFB622)
+I (..\USER\stm32f10x_conf.h)(0x58392DBF)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x56EFB621)
+F (..\STM32F10x_FWLib\src\stm32f10x_usart.c)(0x56EFB621)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\EXTI -I..\HARDWARE\BEEP -I..\HARDWARE\TIMER -I..\HARDWARE\SPI -I..\HARDWARE\AM2305 -I..\HARDWARE\MAX31865 -I..\HARDWARE\SY-FSX2 -I..\HARDWARE\RESPONSE -I..\HARDWARE\DAC -I..\HARDWARE\ADC -I..\HARDWARE\PLUSE_ENCODE -I..\HARDWARE\RS485 -I..\HARDWARE\AWA5632 -I..\HARDWARE\DS18B20 -I..\HARDWARE\OPC -I..\MODBUS_SLAVE-I C:\Keil\MDK\ARM\RV31\INC-I C:\Keil\MDK\ARM\CMSIS\Include-I C:\Keil\MDK\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_usart.o --omf_browse ..\obj\stm32f10x_usart.crf --depend ..\obj\stm32f10x_usart.d)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x56EFB621)
+I (..\USER\stm32f10x.h)(0x56EFB622)
+I (..\CORE\core_cm3.h)(0x56EFB621)
+I (C:\Keil\MDK\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (..\USER\system_stm32f10x.h)(0x56EFB622)
+I (..\USER\stm32f10x_conf.h)(0x58392DBF)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x56EFB621)
+F (..\STM32F10x_FWLib\src\stm32f10x_exti.c)(0x56EFB621)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\EXTI -I..\HARDWARE\BEEP -I..\HARDWARE\TIMER -I..\HARDWARE\SPI -I..\HARDWARE\AM2305 -I..\HARDWARE\MAX31865 -I..\HARDWARE\SY-FSX2 -I..\HARDWARE\RESPONSE -I..\HARDWARE\DAC -I..\HARDWARE\ADC -I..\HARDWARE\PLUSE_ENCODE -I..\HARDWARE\RS485 -I..\HARDWARE\AWA5632 -I..\HARDWARE\DS18B20 -I..\HARDWARE\OPC -I..\MODBUS_SLAVE-I C:\Keil\MDK\ARM\RV31\INC-I C:\Keil\MDK\ARM\CMSIS\Include-I C:\Keil\MDK\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_exti.o --omf_browse ..\obj\stm32f10x_exti.crf --depend ..\obj\stm32f10x_exti.d)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x56EFB621)
+I (..\USER\stm32f10x.h)(0x56EFB622)
+I (..\CORE\core_cm3.h)(0x56EFB621)
+I (C:\Keil\MDK\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (..\USER\system_stm32f10x.h)(0x56EFB622)
+I (..\USER\stm32f10x_conf.h)(0x58392DBF)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x56EFB621)
+F (..\STM32F10x_FWLib\src\stm32f10x_tim.c)(0x56EFB621)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\EXTI -I..\HARDWARE\BEEP -I..\HARDWARE\TIMER -I..\HARDWARE\SPI -I..\HARDWARE\AM2305 -I..\HARDWARE\MAX31865 -I..\HARDWARE\SY-FSX2 -I..\HARDWARE\RESPONSE -I..\HARDWARE\DAC -I..\HARDWARE\ADC -I..\HARDWARE\PLUSE_ENCODE -I..\HARDWARE\RS485 -I..\HARDWARE\AWA5632 -I..\HARDWARE\DS18B20 -I..\HARDWARE\OPC -I..\MODBUS_SLAVE-I C:\Keil\MDK\ARM\RV31\INC-I C:\Keil\MDK\ARM\CMSIS\Include-I C:\Keil\MDK\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_tim.o --omf_browse ..\obj\stm32f10x_tim.crf --depend ..\obj\stm32f10x_tim.d)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x56EFB621)
+I (..\USER\stm32f10x.h)(0x56EFB622)
+I (..\CORE\core_cm3.h)(0x56EFB621)
+I (C:\Keil\MDK\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (..\USER\system_stm32f10x.h)(0x56EFB622)
+I (..\USER\stm32f10x_conf.h)(0x58392DBF)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x56EFB621)
+F (..\STM32F10x_FWLib\src\stm32f10x_spi.c)(0x56EFB621)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\EXTI -I..\HARDWARE\BEEP -I..\HARDWARE\TIMER -I..\HARDWARE\SPI -I..\HARDWARE\AM2305 -I..\HARDWARE\MAX31865 -I..\HARDWARE\SY-FSX2 -I..\HARDWARE\RESPONSE -I..\HARDWARE\DAC -I..\HARDWARE\ADC -I..\HARDWARE\PLUSE_ENCODE -I..\HARDWARE\RS485 -I..\HARDWARE\AWA5632 -I..\HARDWARE\DS18B20 -I..\HARDWARE\OPC -I..\MODBUS_SLAVE-I C:\Keil\MDK\ARM\RV31\INC-I C:\Keil\MDK\ARM\CMSIS\Include-I C:\Keil\MDK\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_spi.o --omf_browse ..\obj\stm32f10x_spi.crf --depend ..\obj\stm32f10x_spi.d)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x56EFB621)
+I (..\USER\stm32f10x.h)(0x56EFB622)
+I (..\CORE\core_cm3.h)(0x56EFB621)
+I (C:\Keil\MDK\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (..\USER\system_stm32f10x.h)(0x56EFB622)
+I (..\USER\stm32f10x_conf.h)(0x58392DBF)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x56EFB621)
+F (..\STM32F10x_FWLib\src\stm32f10x_adc.c)(0x56EFB621)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\EXTI -I..\HARDWARE\BEEP -I..\HARDWARE\TIMER -I..\HARDWARE\SPI -I..\HARDWARE\AM2305 -I..\HARDWARE\MAX31865 -I..\HARDWARE\SY-FSX2 -I..\HARDWARE\RESPONSE -I..\HARDWARE\DAC -I..\HARDWARE\ADC -I..\HARDWARE\PLUSE_ENCODE -I..\HARDWARE\RS485 -I..\HARDWARE\AWA5632 -I..\HARDWARE\DS18B20 -I..\HARDWARE\OPC -I..\MODBUS_SLAVE-I C:\Keil\MDK\ARM\RV31\INC-I C:\Keil\MDK\ARM\CMSIS\Include-I C:\Keil\MDK\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_adc.o --omf_browse ..\obj\stm32f10x_adc.crf --depend ..\obj\stm32f10x_adc.d)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x56EFB621)
+I (..\USER\stm32f10x.h)(0x56EFB622)
+I (..\CORE\core_cm3.h)(0x56EFB621)
+I (C:\Keil\MDK\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (..\USER\system_stm32f10x.h)(0x56EFB622)
+I (..\USER\stm32f10x_conf.h)(0x58392DBF)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x56EFB621)
+F (..\STM32F10x_FWLib\src\stm32f10x_dac.c)(0x56EFB621)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\EXTI -I..\HARDWARE\BEEP -I..\HARDWARE\TIMER -I..\HARDWARE\SPI -I..\HARDWARE\AM2305 -I..\HARDWARE\MAX31865 -I..\HARDWARE\SY-FSX2 -I..\HARDWARE\RESPONSE -I..\HARDWARE\DAC -I..\HARDWARE\ADC -I..\HARDWARE\PLUSE_ENCODE -I..\HARDWARE\RS485 -I..\HARDWARE\AWA5632 -I..\HARDWARE\DS18B20 -I..\HARDWARE\OPC -I..\MODBUS_SLAVE-I C:\Keil\MDK\ARM\RV31\INC-I C:\Keil\MDK\ARM\CMSIS\Include-I C:\Keil\MDK\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_dac.o --omf_browse ..\obj\stm32f10x_dac.crf --depend ..\obj\stm32f10x_dac.d)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x56EFB621)
+I (..\USER\stm32f10x.h)(0x56EFB622)
+I (..\CORE\core_cm3.h)(0x56EFB621)
+I (C:\Keil\MDK\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (..\USER\system_stm32f10x.h)(0x56EFB622)
+I (..\USER\stm32f10x_conf.h)(0x58392DBF)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x56EFB621)
+F (..\MODBUS_SLAVE\mbcrc.c)(0x5A24E9B5)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\EXTI -I..\HARDWARE\BEEP -I..\HARDWARE\TIMER -I..\HARDWARE\SPI -I..\HARDWARE\AM2305 -I..\HARDWARE\MAX31865 -I..\HARDWARE\SY-FSX2 -I..\HARDWARE\RESPONSE -I..\HARDWARE\DAC -I..\HARDWARE\ADC -I..\HARDWARE\PLUSE_ENCODE -I..\HARDWARE\RS485 -I..\HARDWARE\AWA5632 -I..\HARDWARE\DS18B20 -I..\HARDWARE\OPC -I..\MODBUS_SLAVE-I C:\Keil\MDK\ARM\RV31\INC-I C:\Keil\MDK\ARM\CMSIS\Include-I C:\Keil\MDK\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\mbcrc.o --omf_browse ..\obj\mbcrc.crf --depend ..\obj\mbcrc.d)
+I (..\MODBUS_SLAVE\mbcrc.h)(0x5A24A1D5)
+I (C:\Keil\MDK\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+F (..\MODBUS_SLAVE\modbus_slave.c)(0x5A2B65A2)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\EXTI -I..\HARDWARE\BEEP -I..\HARDWARE\TIMER -I..\HARDWARE\SPI -I..\HARDWARE\AM2305 -I..\HARDWARE\MAX31865 -I..\HARDWARE\SY-FSX2 -I..\HARDWARE\RESPONSE -I..\HARDWARE\DAC -I..\HARDWARE\ADC -I..\HARDWARE\PLUSE_ENCODE -I..\HARDWARE\RS485 -I..\HARDWARE\AWA5632 -I..\HARDWARE\DS18B20 -I..\HARDWARE\OPC -I..\MODBUS_SLAVE-I C:\Keil\MDK\ARM\RV31\INC-I C:\Keil\MDK\ARM\CMSIS\Include-I C:\Keil\MDK\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\modbus_slave.o --omf_browse ..\obj\modbus_slave.crf --depend ..\obj\modbus_slave.d)
+I (..\MODBUS_SLAVE\mbcrc.h)(0x5A24A1D5)
+I (C:\Keil\MDK\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (..\MODBUS_SLAVE\modbus_slave.h)(0x5A24AD6F)
+I (..\SYSTEM\sys\sys.h)(0x583A4A37)
+I (..\USER\stm32f10x.h)(0x56EFB622)
+I (..\CORE\core_cm3.h)(0x56EFB621)
+I (..\USER\system_stm32f10x.h)(0x56EFB622)
+I (..\USER\stm32f10x_conf.h)(0x58392DBF)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x56EFB621)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x56EFB621)
+I (..\HARDWARE\RS485\rs485.h)(0x5A2B4007)
