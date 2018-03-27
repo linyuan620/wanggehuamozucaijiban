@@ -2,7 +2,7 @@
 ..\obj\rs485.o: ..\SYSTEM\sys\sys.h
 ..\obj\rs485.o: ..\USER\stm32f10x.h
 ..\obj\rs485.o: ..\CORE\core_cm3.h
-..\obj\rs485.o: C:\Keil\MDK\ARM\ARMCC\bin\..\include\stdint.h
+..\obj\rs485.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
 ..\obj\rs485.o: ..\USER\system_stm32f10x.h
 ..\obj\rs485.o: ..\USER\stm32f10x_conf.h
 ..\obj\rs485.o: ..\STM32F10x_FWLib\inc\stm32f10x_adc.h

@@ -9,8 +9,11 @@
 #include "modbus_slave.h"
 #include "mbcrc.h"
 
-#define TVOC_K 19.048
-#define TVOC_B -571
+//#define TVOC_K 19.048
+//#define TVOC_B -571
+
+#define TVOC_K 1
+#define TVOC_B 0
 
 u16 adcx;
 float adc_value;

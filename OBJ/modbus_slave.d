@@ -1,6 +1,6 @@
 ..\obj\modbus_slave.o: ..\MODBUS_SLAVE\modbus_slave.c
 ..\obj\modbus_slave.o: ..\MODBUS_SLAVE\mbcrc.h
-..\obj\modbus_slave.o: C:\Keil\MDK\ARM\ARMCC\bin\..\include\stdint.h
+..\obj\modbus_slave.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
 ..\obj\modbus_slave.o: ..\MODBUS_SLAVE\modbus_slave.h
 ..\obj\modbus_slave.o: ..\SYSTEM\sys\sys.h
 ..\obj\modbus_slave.o: ..\USER\stm32f10x.h

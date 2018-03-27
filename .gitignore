@@ -16,3 +16,9 @@
    *.sct  
    *.__i  
    *.htm  
+# My configurations:
+EXIT.build_log.htm
+EXIT.uvopt
+EXIT_uvopt.bak
+EXIT.uvgui.Administrator
+.gitignore

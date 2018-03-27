@@ -3,7 +3,7 @@
 ..\obj\response.o: ..\SYSTEM\sys\sys.h
 ..\obj\response.o: ..\USER\stm32f10x.h
 ..\obj\response.o: ..\CORE\core_cm3.h
-..\obj\response.o: C:\Keil\MDK\ARM\ARMCC\bin\..\include\stdint.h
+..\obj\response.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
 ..\obj\response.o: ..\USER\system_stm32f10x.h
 ..\obj\response.o: ..\USER\stm32f10x_conf.h
 ..\obj\response.o: ..\STM32F10x_FWLib\inc\stm32f10x_adc.h
@@ -19,5 +19,5 @@
 ..\obj\response.o: ..\STM32F10x_FWLib\inc\misc.h
 ..\obj\response.o: ..\SYSTEM\delay\delay.h
 ..\obj\response.o: ..\SYSTEM\usart\usart.h
-..\obj\response.o: C:\Keil\MDK\ARM\ARMCC\bin\..\include\stdio.h
-..\obj\response.o: C:\Keil\MDK\ARM\ARMCC\bin\..\include\string.h
+..\obj\response.o: C:\Keil\ARM\ARMCC\bin\..\include\stdio.h
+..\obj\response.o: C:\Keil\ARM\ARMCC\bin\..\include\string.h
