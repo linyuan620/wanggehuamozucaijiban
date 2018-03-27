@@ -63,8 +63,8 @@ void Modbus_RegMap(void)
 				Modbus_InputReg[7] = &LaserPm10;
 				Modbus_InputReg[8] = &LaserPm25;	
 				
-				Modbus_InputReg[20] = (u16*)&TVOCPpm;
-				Modbus_InputReg[21] = ((u16*)&TVOCPpm) +1;
+				Modbus_InputReg[20] = ((u16*)&TVOCPpm) +1;
+				Modbus_InputReg[21] = (u16*)&TVOCPpm;
 	
 //				Modbus_HoldReg[0]=(u16*)&testData1;//测试数据1 
 //        Modbus_HoldReg[1]=((u16*)&testData1)+1;//测试数据1 
